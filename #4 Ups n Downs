@@ -1,0 +1,42 @@
+<div></div>
+<div></div>
+<div></div>
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background-color: #62306D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: 100px;
+    height: 200px;
+    background-color: #F7EC7D;
+    border-radius: 0px 0px 0px 0px;
+  }
+  div:nth-child(1) {
+    border-radius: 0px 0px 150px 150px;
+    margin-top: 100px;
+    padding-top: 100px;
+    height: auto;
+
+}
+   div:nth-child(2) {
+    margin-bottom: 100px;
+     border-radius: 150px 150px 0px 0px;
+ 	padding-bottom: 100;
+    height: auto;
+}
+   div:nth-child(3) {
+     border-radius: 0px 0px 150px 150px;
+    margin-top: 100px;
+    padding-top: 100px;
+    height: auto;
+
+}
+</style>
